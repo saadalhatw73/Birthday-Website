@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Shippori Antique', sans-serif;
+    background: linear-gradient(to bottom, #ffe1e1, #ff99c8);
+    overflow-x: hidden;
+    text-align: center;
+    color: #333;
+  }
+  
+  #Content {
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+    margin-top: 10vh;
+    padding: 20px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  #kadoIn {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: #ffc2d1;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.4s ease;
+  }
+  
+  #kadoIn:hover {
+    transform: scale(1.05);
+  }
+  
+  #ket {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #5c0067;
+    margin-top: 12px;
+  }
+  
+  #halo {
+    font-size: 28px;
+    color: #c8006e;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+  }
+  
+  blockquote#bq {
+    margin: 20px auto;
+    max-width: 600px;
+    background: #fff8fb;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(255, 0, 100, 0.15);
+    font-size: 18px;
+    line-height: 1.8;
+    color: #222;
+  }
+  
+  #customMessage {
+    display: none;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  #manualNextButton {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #ff2f92;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  

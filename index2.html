@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Wishlist - 3D Carousel</title>
+  <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+
+<!-- 🔄 Image & Video Carousel -->
+<div id="drag-container">
+  <div id="spin-container">
+
+    <!-- 🖼️ Photos -->
+    <img src="imgs/1.jpg" alt="">
+    <img src="imgs/2.jpg" alt="">
+    <img src="imgs/3.jpg" alt="">
+    <img src="imgs/4.jpg" alt="">
+    <img src="imgs/5.jpg" alt="">
+    <img src="imgs/6.jpg" alt="">
+    <img src="imgs/7.jpg" alt="">
+    <img src="imgs/8.jpg" alt="">
+    <img src="imgs/9.jpg" alt="">
+    <img src="imgs/10.jpg" alt="">
+    <img src="imgs/11.jpg" alt="">
+    <img src="imgs/12.jpg" alt="">
+    <img src="imgs/13.jpg" alt="">
+
+    <!-- 🎥 Highlighted Video -->
+    <video class="highlight-video" controls autoplay loop muted>
+      <source src="imgs/29.mp4" type="video/mp4">
+    </video>
+    <p class="video-msg"></p>
+
+    <!-- 🎥 Secondary Video -->
+    <video muted autoplay loop playsinline>
+      <source src="imgs/30.mp4" type="video/mp4">
+    </video>
+
+    <!-- 🌟 Center Text -->
+    <p>Hope Do You like it...Happy Birthday Snehal.....!🌼🖤</p>
+  </div>
+
+  <!-- 🎯 Ground -->
+  <div id="ground"></div>
+</div>
+
+<!-- 🔊 Music -->
+<div id="music-container"></div>
+
+<!-- ℹ️ Right-side Controls & Info -->
+<div id="side-panel">
+  <p class="info-line">🔄 You can spin, zoom in & zoom out the photos!</p>
+
+  <button onclick="playHighlightedVideo()" class="side-btn">
+    👉 Click to play the pink highlighted video & music!
+  </button>
+
+  <button onclick="goToFinal()" class="side-btn" style="margin-top: 10px;">
+    🎉 Ready for the Final Surprise
+  </button>
+</div>
+
+
+<!-- 🔁 Scripts -->
+<script src="./script2.js"></script>
+
+</body>
+</html>
+
